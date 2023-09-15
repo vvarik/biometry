@@ -3,6 +3,6 @@ title: Using R for Sokal & Rohlf's Biometry
 output: md_document
 ---
 
-Using R and working through the Sokal and Rohlf's Biometry, 3th edition.
+Using R and working through the Sokal and Rohlf's Biometry, 3rd edition.
 
 # Chapter 1
