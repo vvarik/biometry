@@ -6,8 +6,10 @@ output: md_document
 Using R and working through the Sokal and Rohlf's Biometry, 3rd edition.
 
 ```{r setup, include=F}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dpi = 300, fig.path='png/')
 devtools::document("r")
 devtools::load_all("r")
+# let R_rmarkdown_args = 'output_dir = "."'
 ```
 
 
@@ -28,3 +30,12 @@ frequent, however, are investigations, such as those determining the relation
 betweens smoking and heart disease, where the variability of the outcomes
 necessitates statistical analysis."
 
+# 2 | Data in biology
+
+Twenty-five femur lengths of stem mothers of the aphid _Pemphigus
+populitransversus_ in 0.1 mm.
+
+```{r}
+hist(femur, data=aphid, breaks=seq(3.25, 4.75, 0.3), col='white')
+hist(femur, data=aphid, breaks=seq(3.25, 4.75, 0.1), add=T, col=1, border='white')
+```
