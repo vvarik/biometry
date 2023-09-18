@@ -3,7 +3,7 @@ title: Using R for Sokal & Rohlf's Biometry
 output: md_document
 ---
 
-Using R and working through the Sokal and Rohlf's Biometry, 3rd edition.
+Use R and work through the Sokal and Rohlf's Biometry, 3rd edition. Create an R package for the datasets.
 
 ```{r setup, include=F}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dpi = 300, fig.path='png/')

@@ -1,4 +1,5 @@
-Using R and working through the Sokal and Rohlf’s Biometry, 3rd edition.
+Use R and work through the Sokal and Rohlf’s Biometry, 3rd edition.
+Create an R package for the datasets.
 
 # Preface
 
