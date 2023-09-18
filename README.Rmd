@@ -9,7 +9,6 @@ Use R and work through the Sokal and Rohlf's Biometry, 3rd edition. Create an R 
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dpi = 300, fig.path='png/')
 devtools::document("r")
 devtools::load_all("r")
-# let R_rmarkdown_args = 'output_dir = "."'
 ```
 
 
