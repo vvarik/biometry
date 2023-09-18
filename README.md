@@ -24,4 +24,4 @@ statistical analysis.”
 Twenty-five femur lengths of stem mothers of the aphid *Pemphigus
 populitransversus* in 0.1 mm.
 
-![](png/unnamed-chunk-1-1.png)
+![](png/femur_length-1.png)
