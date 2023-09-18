@@ -5,6 +5,12 @@ output: md_document
 
 Using R and working through the Sokal and Rohlf's Biometry, 3rd edition.
 
+```{r}
+devtools::document("r")
+devtools::load_all("r")
+```
+
+
 # Preface
 
 "There is remarkably little correlation between innate mathematical ability and
