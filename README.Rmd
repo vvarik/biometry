@@ -40,3 +40,9 @@ hist(femur, data=aphid, breaks=seq(3.25, 4.75, 0.3), col='white',
 )
 hist(femur, data=aphid, breaks=seq(3.25, 4.75, 0.1), add=T, col=1, border='white')
 ```
+
+```{r}
+par(mfrow=c(1, 2))
+hist(width, data=pigeon, main='', xlab='Interorbital width, mm', ylim=c(0, 15))
+hist(log(width), data=pigeon, main='', xlab='log(Interorbital width), mm', ylim=c(0, 15))
+```
