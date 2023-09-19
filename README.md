@@ -22,9 +22,12 @@ statistical analysis.”
 
 # 2 | Data in biology
 
+![](png/femur_length-1.png)
+
 Twenty-five femur lengths of stem mothers of the aphid *Pemphigus
 populitransversus* in 0.1 mm.
 
-![](png/femur_length-1.png)
-
 ![](png/pigeon_width-1.png)
+
+Interorbital width of a 40 domestic pigeons (left) and the same data
+log<sub>10</sub> transformed (right).
