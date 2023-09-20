@@ -15,7 +15,7 @@ data(pigeon)
 }
 \description{
 Butter fat content in percentages for 120 three-year-old Ayran cows selected
-at random from a Canadian stock record book
+at random from a Canadian cattle breeder's stock record book
 }
 \references{
 Sokal & Rohlf Biometry 3rd, p 59.
