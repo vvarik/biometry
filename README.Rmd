@@ -49,3 +49,9 @@ hist(log10(width), data=pigeon, main='', xlab=expression(log[10]*'(Interorbital 
 ```
 
 Interorbital width of a 40 domestic pigeons (left) and the same data log~10~ transformed (right).
+
+
+# 3 | Handling of data
+
+"The availability of computers relieves the tedium of computation, but not the
+necessity to understand the methods being employed."
