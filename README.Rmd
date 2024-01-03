@@ -55,3 +55,10 @@ Interorbital width of a 40 domestic pigeons (left) and the same data log~10~ tra
 
 "The availability of computers relieves the tedium of computation, but not the
 necessity to understand the methods being employed."
+
+# 6 | The normal probability distribution
+
+```{r}
+with(housefly, hist(wing_length))
+```
+
