@@ -32,10 +32,10 @@ necessitates statistical analysis."
 # 2 | Data in biology
 
 ```{r femur_length}
-hist(femur, data=aphid, breaks=seq(3.25, 4.75, 0.3), col='white', 
+hist(aphid$femur, breaks=seq(3.25, 4.75, 0.3), col='white', 
   xlab='Femur length, 0.1 mm', main=''
 )
-hist(femur, data=aphid, breaks=seq(3.25, 4.75, 0.1), add=T, col=1, border='white')
+hist(aphid$femur, breaks=seq(3.25, 4.75, 0.1), add=T, col=1, border='white')
 ```
 
 Twenty-five femur lengths of stem mothers of the aphid _Pemphigus
@@ -44,8 +44,8 @@ populitransversus_ in 0.1 mm.
 
 ```{r pigeon_width}
 par(mfrow=c(1, 2))
-hist(width, data=pigeon, main='', xlab='Interorbital width, mm', ylim=c(0, 15))
-hist(log10(width), data=pigeon, main='', xlab=expression(log[10]*'(Interorbital width)'), ylim=c(0, 15))
+hist(pigeon$width, main='', xlab='Interorbital width, mm', ylim=c(0, 15))
+hist(log10(pigeon$width), main='', xlab=expression(log[10]*'(Interorbital width)'), ylim=c(0, 15))
 ```
 
 Interorbital width of a 40 domestic pigeons (left) and the same data log~10~ transformed (right).
